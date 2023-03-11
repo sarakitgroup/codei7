@@ -1,0 +1,300 @@
+.Security-Management
+{
+text-transform: capitalize;
+color: #000;
+padding-bottom: 50px;
+border-bottom: 2px solid #000;
+margin-bottom: 0px;	
+}
+.Productivity-Collaboration
+{
+text-transform:capitalize; 
+color:#000; 
+padding-bottom:50px; 
+border-bottom:2px solid #000; 
+margin-bottom:0px;	
+}
+.Contact-Sales
+{
+text-align:center; 
+margin-bottom:0px; 
+padding:33px 0;	
+}
+.Special-Offers {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker 
+{  
+  50% { opacity: 0; }
+}
+.Special-Offers
+{
+font-size:40px; 
+color:#1a73e8; 
+text-align:center; 
+margin:0px 0 40px 0;	
+}
+.SecurityManagement
+{
+margin-top:50px;	
+}
+.DocsLineheight
+{
+line-height:10px;	
+}
+.BusinessStarter
+{
+margin:30px 0;	
+}
+.MostPopular
+{
+text-align:center; 
+margin:0px; 
+background-color:#e8f0fe; 
+color:#1a73e8; 
+border:1px solid #e8f0fe; 
+padding:3px 5px; 
+font-size:12px; 
+text-transform:uppercase;	
+}
+.PlansImgBotMarg
+{
+margin:80px 0;	
+}
+.PlansImgDiv
+{
+padding:0 105px;	
+}
+.PlansImg
+{
+width:80px;
+height:auto;
+float:left;	
+}
+.GoogleWorkshopPlan
+{
+text-align:center; 
+padding:0 200px;	
+}
+article {
+  display: block;
+  background: #fff;
+}
+
+.dropdown__menu li {
+  font-size: 16px;
+}
+.dropdown__menu a {
+  cursor: pointer;
+  display: block;
+  clear: both;
+  padding: 3px 10px;
+  color: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.dropdown__menu a:hover {
+  background-color: #f5f5f5;
+}
+.dropdown.beefup {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+.dropdown .beefup__head {
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 0 40px 0 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 2.5;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.dropdown .beefup__body {
+  float: left;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  margin: 2px 0 0;
+  padding: 5px 0;
+  min-width: 160px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  list-style: none;
+  text-align: left;
+}
+
+.mockup {
+ /* height: 90px;
+  background: linear-gradient(to right, #ddd 80%, transparent 0) 0 0px, linear-gradient(to right, #ddd 85%, transparent 0) 0 30px, linear-gradient(to right, #ddd 65%, transparent 0) 0 60px, linear-gradient(to right, #ddd 80%, transparent 0) 0 90px;
+  background-repeat: no-repeat;
+  background-size: 100% 20px;*/
+}
+.mockup-sm {
+  height: 60px;
+  background: linear-gradient(to right, #ddd 90%, transparent 0) 0 0px, linear-gradient(to right, #ddd 75%, transparent 0) 0 30px, linear-gradient(to right, #ddd 90%, transparent 0) 0 60px;
+  background-repeat: no-repeat;
+  background-size: 100% 20px;
+}
+.mockup-lg {
+  height: 150px;
+  background: linear-gradient(to right, #ddd 95%, transparent 0) 0 0px, linear-gradient(to right, #ddd 90%, transparent 0) 0 30px, linear-gradient(to right, #ddd 80%, transparent 0) 0 60px, linear-gradient(to right, #ddd 60%, transparent 0) 0 90px, linear-gradient(to right, #ddd 75%, transparent 0) 0 120px, linear-gradient(to right, #ddd 95%, transparent 0) 0 150px;
+  background-repeat: no-repeat;
+  background-size: 100% 20px;
+}
+
+.tab__head {
+  margin: 0 0 -1px;
+  padding: 0;
+  list-style: none;
+}
+.tab__head li {
+  display: inline-block;
+  z-index: 100;
+  background: #fff;
+  border: 1px solid #ddd;
+  font-weight: bold;
+}
+.tab__head li.is-open {
+  border-bottom-color: transparent;
+}
+.tab__head a {
+  display: block;
+  padding: 0 10px;
+  color: inherit;
+  font-size: 16px;
+  line-height: 2.5;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.tab__item.beefup {
+  display: none;
+  margin: 0;
+  border-radius: 0;
+}
+.tab__item.beefup.is-open {
+  display: block;
+}
+.tab__item .beefup__head {
+  display: none;
+}
+
+
+@media(max-width:480px)
+{
+.GoogleWorkshopPlan	
+{
+padding:0px;	
+}
+.PlansImgDiv
+{
+padding:0px 25px;	
+}
+.PlansImg
+{
+margin-bottom:10px;	
+}
+.PlansImgBotMarg
+{
+margin:40px 0;	
+}
+.g-suite-innerdiv
+{
+height:auto;
+margin-bottom:30px;	
+}
+.MostPopular
+{
+margin-top:60px;	
+}
+.BusinessStarter
+{
+margin:0px 0;	
+}
+.DocsLineheight
+{
+line-height:normal;	
+}
+.SecurityManagement
+{
+margin:0px;	
+}
+.Special-Offers
+{
+line-height:44px;	
+margin:0 0 20px 0;
+}
+.HideMe
+{
+display:none;	
+}
+.Contact-Sales
+{
+padding:5px 0;	
+}
+.Productivity-Collaboration
+{ 
+padding-bottom:25px; 
+font-size:30px;	
+}
+.Security-Management
+{
+padding-bottom:25px; 
+font-size:30px;		
+}
+.imgsize
+{
+width:25px;
+height:auto;	
+}
+}
+
+@media(max-width:400px)
+{
+.Special-Offers
+{
+line-height:40px;	
+font-size:26px;
+margin:0 0 20px 0;
+}
+.Productivity-Collaboration
+{ 
+padding-bottom:25px; 
+font-size:26px;	
+}
+.Security-Management
+{
+padding-bottom:25px; 
+font-size:26px;		
+}	
+}
+@media(max-width:360px)
+{
+.PlansImgDiv 
+{
+padding: 0px 40px;
+}
+.Security-Management
+{
+padding-bottom:25px; 
+font-size:24px;		
+}
+.Productivity-Collaboration
+{ 
+padding-bottom:25px; 
+font-size:24px;	
+}
+}

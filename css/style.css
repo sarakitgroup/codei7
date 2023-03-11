@@ -1,0 +1,89 @@
+
+.list-style-bullet
+{
+color:#F6670A;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'roboto', sans-serif;
+  color: #666;
+  font-size: 16px;
+  background: #f9f9f9;
+  line-height: 1.6em;
+}
+
+.talign{text-align:center;}
+
+
+ul, li { list-style: none; }
+
+#container {
+  width: 60%;
+  margin: 150px auto;
+  overflow: auto;
+}
+
+h1 {
+/*  text-align: center;
+  margin-bottom: 20px;*/
+}
+#T a:link{color:#000; text-decoration:none;}
+#T a:visited{color:#000; text-decoration:none;}
+#T a:hover{color:#000; text-decoration:none;}
+
+
+
+
+
+
+
+.title {
+  height: 40px;
+  background: #6bb170;
+  color: white;
+  text-align: center;
+  padding-top: 13px;
+}
+
+.faq li { padding: 5px; }
+
+.faq li.q {
+     background: #292b81;
+    /* font-weight: bold; */
+    font-size: 14px;
+    border-bottom: 1px #ddd solid;
+    cursor: pointer;
+    padding-left: 10px;
+    color: #fff;
+    font-weight: 400;
+	margin-bottom:5px;
+}
+
+.faq li.a {
+      background: #eaeaea;
+    display: none;
+    color: #3c3b3b;
+    font-size: 14px;
+    /* border-radius: 5px; */
+    padding: 10px;
+	margin-bottom:10px;
+	text-align:justify;
+	border:1px solid #ccc;
+}
+
+.rotate {
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+
+@media (max-width:800px) {
+
+#container {width: 90%;}
+
+}
